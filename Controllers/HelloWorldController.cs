@@ -9,5 +9,10 @@ namespace Assignmentweek1.Controllers
 {
     public class HelloWorldController : ApiController
     {
+        //GET api/HelloWorld/{id} 
+        public string Get()
+        {
+            return "Hello world";
+        }
     }
 }

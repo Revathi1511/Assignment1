@@ -9,5 +9,12 @@ namespace Assignmentweek1.Controllers
 {
     public class MathematicsController : ApiController
     {
+        //GET api/Mathematics/{id} 
+        public string Get(int id)
+
+        {
+            int result = 8 + id / id + (5 * id) - 7;
+
+            return result.ToString();        }
     }
 }
